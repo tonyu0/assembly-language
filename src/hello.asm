@@ -14,7 +14,7 @@ write:
 
 exit:
   mov rax, 60
-  mov rdi,  0
+  xor rdi,  rdi
   syscall
 
 _start:

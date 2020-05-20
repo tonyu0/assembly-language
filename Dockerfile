@@ -1,2 +1,2 @@
 FROM alpine:latest
-RUN apk add gcc gdb nasm
+RUN apk add build-base gdb nasm
